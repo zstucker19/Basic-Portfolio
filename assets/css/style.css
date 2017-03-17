@@ -1,0 +1,92 @@
+body {
+	background-color: #dddddd;
+}
+
+#header {
+	background-color: white;
+}
+
+#head_left {
+	color: #efefef;
+	margin-left: 200px;
+	font-family: Georgia, Times, Times New Roman, serif;
+	margin-top: 30px;
+	font-size: 40px;
+	border: 1px solid #4aaaa5;
+	background-color: #4aaaa5;
+	display: inline-block;
+}
+
+#head_right {
+	float: right;
+	font-size: 20px;
+	margin-right: 300px;
+	margin-top: 50px;
+	display:inline;
+	color: #dddddd;
+}
+
+a {
+	color: #dddddd;
+}
+
+#aboutMeInfo {
+	border: .5px solid;
+	background-color: #dddddd;
+	height: 500px;
+}
+
+#bodyHead {
+	margin-left: 200px;
+	background-color: #4aaaa5;
+	color: #efefef;
+	border: 1px solid #efefef;
+}
+
+#myPic {
+	width: 200px;
+	height: 200px;
+	margin-left: 200px;
+	float: left;
+}
+
+#p1 {
+	display: inline;
+	margin-right: 200px;
+	word-wrap: break-word;
+}
+
+.connect {
+	border: .5px solid #666666;
+}
+
+h3 {
+
+}
+
+.github {
+	height: 60px;
+	width: 60px;
+}
+
+.linkedin {
+	height: 60px;
+	width: 60px;
+}
+
+.stackoverflow {
+	height: 60px;
+	width: 60px;
+}
+
+#footer {
+	text-align: center;
+	background-color: #666666;
+	color: #efefef;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border: .5px solid black;
+	border-top:;
+	clear: both;
+	float: bottom;
+}
