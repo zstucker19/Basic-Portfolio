@@ -1,5 +1,7 @@
 body {
 	background-color: #dddddd;
+	width: 960px;
+	margin: 0 auto;
 }
 
 #header {
@@ -8,21 +10,21 @@ body {
 
 #head_left {
 	color: #efefef;
-	margin-left: 200px;
+	margin-left: 50px;
 	font-family: Georgia, Times, Times New Roman, serif;
 	margin-top: 30px;
 	font-size: 40px;
 	border: 1px solid #4aaaa5;
 	background-color: #4aaaa5;
-	display: inline-block;
+	display: inline;
 }
 
 #head_right {
 	float: right;
 	font-size: 20px;
-	margin-right: 300px;
-	margin-top: 50px;
-	display:inline;
+	margin-top: 10px;
+	margin-right: 40px;
+	display: inline;
 	color: #dddddd;
 }
 
@@ -32,36 +34,54 @@ a {
 
 #aboutMeInfo {
 	border: .5px solid;
-	background-color: #dddddd;
+	background-color: white;
 	height: 500px;
+	width: 650px;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 50px
+}
+
+h2 {
+	border-bottom: 2px solid #ebebeb;
 }
 
 #bodyHead {
-	margin-left: 200px;
-	background-color: #4aaaa5;
-	color: #efefef;
-	border: 1px solid #efefef;
+	color: #4aaaaf;
+	margin-left: 20px;
+	padding-bottom: 10px;
 }
 
 #myPic {
 	width: 200px;
 	height: 200px;
-	margin-left: 200px;
-	float: left;
+	margin-left: 20px;
+	display: inline-block;
+	border-top: 2px solid #ebebeb;
 }
 
 #p1 {
-	display: inline;
-	margin-right: 200px;
-	word-wrap: break-word;
+	display: inline-block;
+	width: 250px;
+}
+
+#p2 {
+	margin-left: 20px;
 }
 
 .connect {
-	border: .5px solid #666666;
+	color: #4aaaa5;
+	width: 200px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 30px;
+	background-color: white;
+	text-align: center;
 }
 
 h3 {
-
+	border-bottom: 2px solid #ebebeb;
 }
 
 .github {
@@ -79,6 +99,7 @@ h3 {
 	width: 60px;
 }
 
+
 #footer {
 	text-align: center;
 	background-color: #666666;
@@ -89,4 +110,5 @@ h3 {
 	border-top:;
 	clear: both;
 	float: bottom;
+	border-top: 10px solid #4aaaa5;
 }
