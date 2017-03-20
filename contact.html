@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 <head>
 	<link rel= "stylesheet" type="text/css" href="assets/css/style.css">
 	<meta charset="utf-8">
@@ -10,7 +10,7 @@
 		<span id="head_left">Zack Tucker</span>
 
 		<span id="head_right">
-			<a href="#">About</a>
+			<a href="index.html">About</a>
 			 | 
 			<a href="portfolio.html">Portfolio</a>
 			 | 
@@ -18,15 +18,22 @@
 		</span>
 	</div>
 
-	<div class="main">
-	<section id="aboutMeInfo">
-		<h2><span id="bodyHead">About Me</span></h2>
-		
-			<img id="myPic" src = "https://www.linkedin.com/mpr/mpr/AAEAAQAAAAAAAAcrAAAAJGNmNDJkMjk0LTQ3N2UtNDQwYi1iNzhmLTg2ZmNkOTFiNTI5MQ.jpg">
+		<section id="ContactInfo">
+		<h2><span id="bodyHead">Contact</span></h2>
 
-			<p id="p1">Well, my name is Zack, and I'm just starting out in web design.  There's still a lot I need to learn right now, but hopefully everything will go smoothly.  I'll keep working on my HTML and CSS abilities until the creation of a website like this becomes second nature.</p>
-		
-			<p id="p2">Even though I'm new, I've found these first few classes very helpful, and I am really looking forward to testing myself against more challenging programming languages throughout the course.  That's all the space I have for now, so I'll just stop writing here!</p>
+		<form action="mailto:zachary.staton.tucker@gmail.com" method="post" enctype="text/plain" id="contactForm">
+			<div>Name</div>
+				<input id="formName" type="text" name="Name" value="John Smith">
+		<br>
+			<div>Email</div>
+				<input id="formEmail" type="text" name="Email" value="example@gmail.com">
+		<br>
+			<div>Message</div>
+				<textarea id="Comment" type="submit" name="Comment">Your Text Here...</textarea>
+		<br>
+			<button id="formButton" type="submit">Submit</button>
+		</form>
+
 	</section>
 
 	<section class="connect">
@@ -39,10 +46,10 @@
 			<a href="https://stackoverflow.com/users/7659841/ztucker19"><img class="stackoverflow" src="http://sourcingrecruitment.info/wp-content/uploads/2015/05/stackoverflow.png">
 			</a>
 	</section>
-	</div>
 
 	<div id="footer">
 		<h6>© Copyright Zachary Tucker</h6>
 	</div>
+
 </body>
 </html>

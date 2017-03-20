@@ -1,4 +1,5 @@
 body {
+	background-image: url("http://polygonblog.com.www32.zoner-asiakas.fi/wp-content/uploads/2010/04/concrete-wall-texture-high-res.jpg");
 	background-color: #dddddd;
 	width: 960px;
 	margin: 0 auto;
@@ -6,6 +7,8 @@ body {
 
 #header {
 	background-color: white;
+	border-bottom: 2px solid grey;
+	padding-top: 10px;
 }
 
 #head_left {
@@ -30,17 +33,18 @@ body {
 
 a {
 	color: #dddddd;
+	text-decoration: none;
 }
 
 #aboutMeInfo {
-	border: .5px solid;
+	border: .5px solid grey;
 	background-color: white;
-	height: 500px;
+	height: 400px;
 	width: 650px;
 	float: left;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	margin-left: 50px
+	margin-left: 10px
 }
 
 h2 {
@@ -51,6 +55,7 @@ h2 {
 	color: #4aaaaf;
 	margin-left: 20px;
 	padding-bottom: 10px;
+	font-size: 30px;
 }
 
 #myPic {
@@ -72,15 +77,18 @@ h2 {
 
 .connect {
 	color: #4aaaa5;
-	width: 200px;
+	width: 270px;
+	height: 180px;
 	float: right;
-	margin-right: 20px;
+	margin-right: 10px;
 	margin-top: 30px;
 	background-color: white;
 	text-align: center;
+	border: 1px solid grey;
 }
 
 h3 {
+	font-size: 24px;
 	border-bottom: 2px solid #ebebeb;
 }
 
@@ -103,12 +111,105 @@ h3 {
 #footer {
 	text-align: center;
 	background-color: #666666;
-	color: #efefef;
+	color: #ebebeb;
 	padding-top: 8px;
 	padding-bottom: 8px;
-	border: .5px solid black;
-	border-top:;
+	border: .5px solid grey;
 	clear: both;
 	float: bottom;
 	border-top: 10px solid #4aaaa5;
+}
+
+#PortfolioInfo {
+	border: .5px solid;
+	background-color: white;
+	height: 800px;
+	width: 650px;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 10px
+}
+
+#img1 {
+	height: 200px;
+	width: 250px;
+	float: left;
+	margin-left: 50px;
+}
+
+#img2 {
+	height: 200px;
+	width: 250px;
+	float: right;
+	margin-right: 50px;
+}
+
+#img3 {
+	height: 200px;
+	width: 250px;
+	float: left;
+	margin: 50px 0px 50px 50px;
+}
+
+#img4 {
+	height: 200px;
+	width: 250px;
+	float: right;
+	margin: 50px 50px 50px 0px;
+}
+
+#img5 {
+	height: 200px;
+	width: 250px;
+	float: left;
+	margin-left: 50px;
+}
+
+#ContactInfo {
+	border: .5px solid;
+	background-color: white;
+	height: 800px;
+	width: 650px;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 10px
+}
+
+#contactForm {
+	color: gray;
+	font-size: 20px;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	margin-left: 50px;
+}
+
+input[type=text] {
+	width: 550px;
+	font-size: 12px;
+}
+
+#formName {
+	 margin-bottom: 30px;
+	 height: 20px;
+}
+
+#formEmail {
+	margin-bottom: 30px;
+	height: 20px;
+}
+
+textarea {
+	margin-bottom: 30px;
+	height: 400px;
+	width: 550px;
+	font-size: 16px;
+}
+
+#formButton {
+	font-size: 20px;
+	color: white;
+	background-color: #4aaaa5;
+	width: 100px;
+	height: 50px;
 }
