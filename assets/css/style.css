@@ -2,16 +2,18 @@ body {
 	background-image: url("http://polygonblog.com.www32.zoner-asiakas.fi/wp-content/uploads/2010/04/concrete-wall-texture-high-res.jpg");
 	background-color: #dddddd;
 	width: 960px;
+	height: 100%;
 	margin: 0 auto;
+	position: relative;
 }
 
-#header {
+.header {
 	background-color: white;
 	border-bottom: 2px solid grey;
 	padding-top: 10px;
 }
 
-#head_left {
+.head_left {
 	color: #efefef;
 	margin-left: 50px;
 	font-family: Georgia, Times, Times New Roman, serif;
@@ -22,7 +24,7 @@ body {
 	display: inline;
 }
 
-#head_right {
+.head_right {
 	float: right;
 	font-size: 20px;
 	margin-top: 10px;
@@ -34,6 +36,10 @@ body {
 a {
 	color: #dddddd;
 	text-decoration: none;
+}
+
+a:hover {
+	color: red;
 }
 
 #aboutMeInfo {
@@ -63,6 +69,7 @@ h2 {
 	height: 200px;
 	margin-left: 20px;
 	display: inline-block;
+	overflow: auto;
 	border-top: 2px solid #ebebeb;
 }
 
@@ -108,7 +115,7 @@ h3 {
 }
 
 
-#footer {
+.footer {
 	text-align: center;
 	background-color: #666666;
 	color: #ebebeb;
@@ -116,7 +123,6 @@ h3 {
 	padding-bottom: 8px;
 	border: .5px solid grey;
 	clear: both;
-	float: bottom;
 	border-top: 10px solid #4aaaa5;
 }
 
@@ -212,4 +218,8 @@ textarea {
 	background-color: #4aaaa5;
 	width: 100px;
 	height: 50px;
+}
+
+#formButton:hover {
+	color: blue;
 }
