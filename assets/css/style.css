@@ -1,5 +1,5 @@
 body {
-	background-image: url("http://polygonblog.com.www32.zoner-asiakas.fi/wp-content/uploads/2010/04/concrete-wall-texture-high-res.jpg");
+	background-image: url("../images/concrete_seamless/concrete_seamless.png");
 	background-color: #dddddd;
 	width: 960px;
 	height: 100%;
@@ -11,6 +11,7 @@ body {
 	background-color: white;
 	border-bottom: 2px solid grey;
 	padding-top: 10px;
+	padding-bottom: 4px;
 }
 
 .head_left {
@@ -50,7 +51,7 @@ a:hover {
 	float: left;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	margin-left: 10px
+	margin-left: 30px
 }
 
 h2 {
@@ -70,24 +71,26 @@ h2 {
 	margin-left: 20px;
 	display: inline-block;
 	overflow: auto;
-	border-top: 2px solid #ebebeb;
+	padding-top: 25px;
 }
 
 #p1 {
 	display: inline-block;
 	width: 250px;
+	line-height: 160%;
 }
 
 #p2 {
 	margin-left: 20px;
+	line-height: 160%;
 }
 
 .connect {
 	color: #4aaaa5;
-	width: 270px;
-	height: 180px;
+	width: 180px;
+	height: 130px;
 	float: right;
-	margin-right: 10px;
+	margin-right: 50px;
 	margin-top: 30px;
 	background-color: white;
 	text-align: center;
@@ -95,35 +98,43 @@ h2 {
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 20px;
 	border-bottom: 2px solid #ebebeb;
+	margin-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .github {
-	height: 60px;
-	width: 60px;
+	height: 50px;
+	width: 50px;
 }
 
 .linkedin {
-	height: 60px;
-	width: 60px;
+	height: 50px;
+	width: 50px;
 }
 
 .stackoverflow {
-	height: 60px;
-	width: 60px;
+	height: 50px;
+	width: 50px;
 }
 
 
 .footer {
+	font-size: 10px;
 	text-align: center;
 	background-color: #666666;
 	color: #ebebeb;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	border: .5px solid grey;
 	clear: both;
 	border-top: 10px solid #4aaaa5;
+	position: fixed;
+	bottom: 0px;
+	width: 960px;
+	margin: 0 auto;
 }
 
 #PortfolioInfo {
@@ -134,7 +145,7 @@ h3 {
 	float: left;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	margin-left: 10px
+	margin-left: 30px
 }
 
 #img1 {
@@ -149,6 +160,7 @@ h3 {
 	width: 250px;
 	float: right;
 	margin-right: 50px;
+	position: relative;
 }
 
 #img3 {
@@ -180,7 +192,7 @@ h3 {
 	float: left;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	margin-left: 10px
+	margin-left: 30px
 }
 
 #contactForm {
